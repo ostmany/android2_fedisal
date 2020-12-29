@@ -2,8 +2,15 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_3" />
+        <device id="Nexus 7" />
+        <device id="pixel_xl" />
+      </config>
     </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90c44eaf-6268-4d22-ace4-5308c9def536" name="Default Changelist" comment="" />
@@ -12,7 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_7_API_23" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,17 +42,26 @@
   <component name="ProjectId" id="1llk6KEzDWE2SJe9JcNP4oUaaCd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_7_API_23" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-17T04:27:58.009Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_10_API_23" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-29T03:41:17.362Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="algorithm" value="Scalr" />
+    <property name="destination" value="DRAWABLE" />
+    <property name="format" value="PNG" />
+    <property name="lastFolderRoot" value="$USER_HOME$/Pictures/android/semana3.9.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../semana3 rev2/MiPrimerProyectoAndroid" />
+    <property name="method" value="Automatic" />
+    <property name="resolutions" value="TVDPI&#10;MDPI&#10;XHDPI&#10;XXHDPI&#10;HDPI&#10;XXXHDPI&#10;LDPI" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="sourceResolution" value="XHDPI" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Cursos\Java 2\semana3\app\src\main\res\drawable-v24" />
       <recent name="E:\Cursos\Java 2\app\src\main\res\drawable" />
     </key>
   </component>
@@ -91,12 +107,13 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+      <module name="primerapp.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -132,11 +149,16 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -171,33 +193,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1608181918026">
+    <state x="553" y="416" width="527" height="209" key="#Custom_Plugin_Repositories" timestamp="1609207568954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608181918026" />
+    <state x="553" y="416" width="527" height="209" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1609207568954" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609210188751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609210188751" />
+    <state x="100" y="100" width="1720" height="847" key="AVDManager" timestamp="1609211219238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1720" height="847" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1609211219238" />
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1609212597965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609212597965" />
     <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1608182325239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608182325239" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1608182400685">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1609210530026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608182400685" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1608182400685">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609210530026" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1609213280522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608182400685" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1608182400685">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609213280522" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1609213280522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608182400685" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1608182400685">
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609213280522" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1609213280522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608182400685" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1608181729947">
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609213280522" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1609213280522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608181729947" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609213280522" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1609207601974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609207601974" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1609092808142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609092808142" />
   </component>
 </project>
