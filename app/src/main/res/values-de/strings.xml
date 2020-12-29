@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Meine erste App</string>
     <string name="welcome">Willkommen</string>
+    <string name="enter">Eingeben</string>
 </resources>
